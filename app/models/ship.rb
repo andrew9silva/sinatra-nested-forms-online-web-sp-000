@@ -11,6 +11,7 @@ class Ship
     @@ships << self
   end
   
-  def self.all 
-end
+  def self.all
+    @@ships
+  end
 end
