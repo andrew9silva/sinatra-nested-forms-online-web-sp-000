@@ -8,7 +8,7 @@ module FormsLab
     end 
     
     def get "/new" do
-    end
+    end 
 
   end
 end
