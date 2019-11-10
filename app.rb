@@ -9,6 +9,9 @@ module FormsLab
     
     def get "/new" do
     end 
+    
+    def post "/pirates" do
+    end
 
   end
 end
