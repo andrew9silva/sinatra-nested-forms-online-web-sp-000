@@ -7,11 +7,12 @@
 
 
 <h1>Ship 1</h1>
-<% @ships.each do |ship| %>
-<div class="ship">
-  <p>Name: <%= ship.name %></p><br>
-  <p>Type: <%= ship.type %></p><br>
-  <p>Booty: <%= ship.booty %></p>
-</div><br>
-<% end %>
+<% @ships.each.with_index do |ship, index| %>
+  <div class="ship">
+    <% if index == 1 %>
+    <p>Name: <%= ship.name %></p><br>
+    <p>Type: <%= ship.type %></p><br>
+    <p>Booty: <%= ship.booty %></p><br>
+    <% end %>
+  <% end %>
 
