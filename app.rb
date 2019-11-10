@@ -5,6 +5,9 @@ module FormsLab
 
     # code other routes/actions here
     def get "/" do
+    end 
+    
+    def get "/new" do
     end
 
   end
