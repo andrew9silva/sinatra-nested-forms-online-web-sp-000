@@ -3,13 +3,13 @@ require './environment'
 module FormsLab
   class App < Sinatra::Base
 
-    def get "/" do
+    get "/" do
     end 
     
-    def get "/new" do
+    get "/new" do
     end 
     
-    def post "/pirates" do
+    post "/pirates" do
     end 
     
 
